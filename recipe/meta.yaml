@@ -1,5 +1,5 @@
 {% set name = "mediapy" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mediapy-{{ version }}.tar.gz
-  sha256: 4c85c11c962c3d1a6d8ec4df7c003ad3043d776239a61386a62bf0ca8d57b594
+  sha256: bb3f8fbf70ef9a10da8c8a8da428fed87b114fb0e1ecab39cabca18846bc28e2
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - flit-core
   run:
     - ipython
     - matplotlib-base
@@ -26,6 +27,7 @@ requirements:
     - pillow
     - python >=3.6
     - ffmpeg
+
 
 test:
   imports:
