@@ -1,5 +1,5 @@
 {% set name = "mediapy" %}
-{% set version = "1.1.9" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mediapy-{{ version }}.tar.gz
-  sha256: 5943b1b44d0d7d78b47e975ab194ea8b13e1555dbe45e7dab6f7fa76009bd19f
+  sha256: 7a7c4ec74859f9f92c93c89bb035a0d0197f709792047137edb37f0f5b9c1028
 
 build:
   number: 0
